@@ -114,7 +114,7 @@ namespace ADSearch
         public static void Main(string[] args)
         {
             // Get userID and check if we want to reference against something
-            PrincipalContext AD = new PrincipalContext(ContextType.Domain, "BRAYDEN_PC");
+            PrincipalContext AD = new PrincipalContext(ContextType.Domain, "<Domain Name Here>");
             Console.Write("Enter User ID: ");
             String userID = Console.ReadLine();
 
